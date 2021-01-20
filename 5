@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      a:link, a:visited{
+        background-color: #f44345;
+        color: gray;
+        padding: 15px, 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+     a:hover,a:active{
+       background-color: red;
+     }
+     </style>
+     </head>
+  </body>
+  <h1>링크버튼</h1>
+  <p>링크스타일</p>
+  <img src="https://www.w3schools.com/html/workplace.jpg" alt="work" width="400" usemap="#work" height="379">
+  <map name="work">
+    <area shape="circle" coords="337,400,44" onclink="myfunciton()">
+  </map>
+    
+  <script>
+    function myfunciton() {
+      alert("you cliink the coffee cup!");
+    }
+  </script>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<h2>Link Colors</h2>
+
+<p>You can change the default colors of links</p>
+
+<a href="html_images.asp" target="_blank">HTML Images</a> 
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc7a3TY%2FbtqCZ0XJDJh%2FoMU6mbjtSV3ggKqKRyQ5WK%2Fimg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 20%, 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>background-image</h2>
+    <p>바인딩 오브 아이작</p>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table, td, tr{
+        border: 1px solid gray;
+        border-collapse: collapse;
+      }
+      th td{
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+
+    <h2>bassic table</h2>
+
+    <table style="width: 300px;"
+    <caption>ymy name</caption>
+    <tr>
+      <th>name</th>
+      <th rowspan="2">lastname</th>
+      <th>age</th>
+    </tr>
+    <tr>
+      <td>eve</td>
+      <td>stull</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>jack</td>
+      <td>back</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>oasic</td>
+      <td>lamd</td>
+      <td>45</td>
+    </tr>
